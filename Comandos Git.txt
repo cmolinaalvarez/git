@@ -1,0 +1,16 @@
+git status (Estado inicial Untracked o sin seguimiento)
+git add *
+git status (Estado actual Add o con seguimiento)
+git rm --cached *
+git status
+git commit -m "texto del commit"
+git log --oneline
+git log --pretty=format:"%h%x09%an%x09%ad%x09%s"
+
+git status -s  
+
+git branch
+
+git checkout -b dev
+
+
