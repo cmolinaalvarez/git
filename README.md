@@ -14,6 +14,7 @@
 | git checkout <rama>     | Cambia a la rama especificada                                         | 
 | git merge <rama>        | Fuciona una rama específica con la rama en la que me encuentro ubicado| 
 | git log                 | Muestra el historial de confirmaciones                                | 
+| git log --pretty=format:"%h%x09%an%x09%ad%x09%s"| Muestra el historial de confirmaciones formateado| 
 | git reset <archivo>     | Deselecciona los cambios de un archivo en el área de preparacion      | 
 | git branch <nombre>     | Crea una nueva rama con el nombre especificado                        | 
 | git reset --hard        | Restablece el estado del repositorio a una confirmación específica    | 
@@ -23,5 +24,7 @@
 | git remote add <nombre> <URL>| Agrega un nuevo repositorio remoto con el nombre y la URL especificados| 
 | git rm <archivo>        | Elimina un archivo del control de versiones                           | 
 | git mv <archivo1> <archivo2> | Cambia el nombre de un archivo en el control de versiones        | 
+
+
 
 [Más comandos git](https://gist.github.com/dasdo/9ff71c5c0efa037441b6)
