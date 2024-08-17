@@ -14,6 +14,7 @@
 | git checkout <rama>     | Cambia a la rama especificada                                         | 
 | git merge <rama>        | Fuciona una rama específica con la rama en la que me encuentro ubicado| 
 | git log                 | Muestra el historial de confirmaciones                                | 
+| git log --oneline                | Muestra el historial de confirmaciones en lineas             | 
 | git log --pretty=format:"%h%x09%an%x09%ad%x09%s"| Muestra el historial de confirmaciones formateado| 
 | git reset <archivo>     | Deselecciona los cambios de un archivo en el área de preparacion      | 
 | git branch <nombre>     | Crea una nueva rama con el nombre especificado                        | 
