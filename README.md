@@ -10,16 +10,16 @@
 | git push                | Envía los cambios locales al repositorio remoto                       | 
 | git pull                | Obtiene los cambios desde el repositorio remoto y los fusiona localmente| 
 | git branch              | Lista todas las ramas del repositorio                                 | 
-| git branch <nombre>     | Crea una nueva rama con el nombre especificado                        | 
-| git checkout <rama>     | Cambia a la rama especificada                                         | 
-| git checkout <hash-commit>     | Cambia al commit especificado                                        | 
+| git branch /<nombre>     | Crea una nueva rama con el nombre especificado                        | 
+| git checkout /<rama>     | Cambia a la rama especificada                                         | 
+| git checkout /<hash-commit>     | Cambia al commit especificado                                        | 
 | git checkout -b dev     | Crea la rama local dev y se posiciona en ella                                       | 
 | git merge <rama>        | Fuciona una rama específica con la rama en la que me encuentro ubicado| 
 | git log                 | Muestra el historial de confirmaciones                                | 
 | git log --oneline                | Muestra el historial de confirmaciones en lineas             | 
 | git log --pretty=format:"%h%x09%an%x09%ad%x09%s"| Muestra el historial de confirmaciones formateado| 
-| git reset <archivo>     | Deselecciona los cambios de un archivo en el área de preparacion      | 
-| git branch <nombre>     | Crea una nueva rama con el nombre especificado                        | 
+| git reset [archivo]     | Deselecciona los cambios de un archivo en el área de preparacion      | 
+| git branch [nombre]     | Crea una nueva rama con el nombre especificado                        | 
 | git reset --hard        | Restablece el estado del repositorio a una confirmación específica    | 
 | git stash               | Guarda los cambios locales en una pila temporal                       | 
 | git stash pop           | Recupera los cambios almacenados en la pila temporal                  | 
