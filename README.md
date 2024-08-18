@@ -25,6 +25,7 @@
 | git remote add <nombre> <URL>| Agrega un nuevo repositorio remoto con el nombre y la URL especificados| 
 | git rm <archivo>        | Elimina un archivo del control de versiones                           | 
 | git mv <archivo1> <archivo2> | Cambia el nombre de un archivo en el control de versiones        | 
+| git fetch| Nos trae la información de la información nueva que se encuentra en la rama remota   |
 
 
 
