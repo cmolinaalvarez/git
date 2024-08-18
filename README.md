@@ -2,7 +2,7 @@
 | Comando                 | Descripcion                                                           | 
 |-------------------------|-----------------------------------------------------------------------|
 | git init                | Inicializa un repositorio GIT en un directorio local                  | 
-| git clone <URL>         | Clona un repositorio GIT desde una URL remota                         | 
+| git clone \<URL>         | Clona un repositorio GIT desde una URL remota                         | 
 | git add [archivo]       | Agrega cambios de un archivo al área de preparacion o Stage           | 
 | git add .               | Agrega todos los cambios al área de preparacion o Stage               | 
 | git commit -m "mensaje" | Guarda los cambios en el repositorio con un mensaje                   | 
@@ -14,7 +14,7 @@
 | git checkout \<rama>     | Cambia a la rama especificada                                         | 
 | git checkout \<hash-commit>     | Cambia al commit especificado                                        | 
 | git checkout -b dev     | Crea la rama local dev y se posiciona en ella                                       | 
-| git merge \rama>        | Fuciona una rama específica con la rama en la que me encuentro ubicado| 
+| git merge \<rama>        | Fuciona una rama específica con la rama en la que me encuentro ubicado| 
 | git log                 | Muestra el historial de confirmaciones                                | 
 | git log --oneline                | Muestra el historial de confirmaciones en lineas             | 
 | git log --pretty=format:"%h%x09%an%x09%ad%x09%s"| Muestra el historial de confirmaciones formateado| 
