@@ -14,7 +14,7 @@
 | git checkout \<rama>     | Cambia a la rama especificada                                         | 
 | git checkout \<hash-commit>     | Cambia al commit especificado                                        | 
 | git checkout -b dev     | Crea la rama local dev y se posiciona en ella                                       | 
-| git merge <rama>        | Fuciona una rama específica con la rama en la que me encuentro ubicado| 
+| git merge \rama>        | Fuciona una rama específica con la rama en la que me encuentro ubicado| 
 | git log                 | Muestra el historial de confirmaciones                                | 
 | git log --oneline                | Muestra el historial de confirmaciones en lineas             | 
 | git log --pretty=format:"%h%x09%an%x09%ad%x09%s"| Muestra el historial de confirmaciones formateado| 
@@ -25,8 +25,8 @@
 | git stash pop           | Recupera los cambios almacenados en la pila temporal                  | 
 | git remote -v           | Muestra las URL de los repositorios remotos                           | 
 | git remote add <nombre> <URL>| Agrega un nuevo repositorio remoto con el nombre y la URL especificados| 
-| git rm <archivo>        | Elimina un archivo del control de versiones                           | 
-| git mv <archivo1> <archivo2> | Cambia el nombre de un archivo en el control de versiones        | 
+| git rm [archivo]        | Elimina un archivo del control de versiones                           | 
+| git mv \<archivo1> \<archivo2> | Cambia el nombre de un archivo en el control de versiones        | 
 | git fetch| Nos trae la información de la información nueva que se encuentra en la rama remota   |
 | git branch -d NombreRama| Borrar una rama de forma local                                        |
 |git push origin -d NombreRama | Borrar una rama de forma remota                                  | 
