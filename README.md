@@ -28,7 +28,7 @@
 | git mv <archivo1> <archivo2> | Cambia el nombre de un archivo en el control de versiones        | 
 | git fetch| Nos trae la información de la información nueva que se encuentra en la rama remota   |
 | git branch -d NombreRama| Borrar una rama de forma local                                        |
-|git push origin -d NombreRama | Borrar local y forma remota una rama                             | 
+|git push origin -d NombreRama | Borrar una rama de forma remota                                  | 
 
 
 
