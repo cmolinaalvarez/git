@@ -29,6 +29,7 @@
 | git fetch| Nos trae la información de la información nueva que se encuentra en la rama remota   |
 | git branch -d NombreRama| Borrar una rama de forma local                                        |
 |git push origin -d NombreRama | Borrar una rama de forma remota                                  | 
+|git fetch --prune | Limpieza de las ramas que ya no existen en remoto                            | 
 
 
 
