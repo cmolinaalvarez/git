@@ -12,6 +12,7 @@
 | git branch              | Lista todas las ramas del repositorio                                 | 
 | git branch <nombre>     | Crea una nueva rama con el nombre especificado                        | 
 | git checkout <rama>     | Cambia a la rama especificada                                         | 
+| git checkout -b dev     | Crea la rama local dev y se posiciona en ella                                       | 
 | git merge <rama>        | Fuciona una rama específica con la rama en la que me encuentro ubicado| 
 | git log                 | Muestra el historial de confirmaciones                                | 
 | git log --oneline                | Muestra el historial de confirmaciones en lineas             | 
